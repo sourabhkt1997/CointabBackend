@@ -1,0 +1,31 @@
+{
+  "development": {
+    "username": "cointab_gvg5_user",
+    "password": "iumtR9tZsvgovA4MyZq3VGkO1jE7pY5X",
+    "database": "cointab_gvg5",
+    "host": "dpg-cn6969a1hbls73c82jvg-a.singapore-postgres.render.com",
+    "dialect": "postgres",
+    "port": 5432,
+    "ssl": true,
+    "dialectOptions": {
+      "ssl": {
+        "require": true
+      }
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
+

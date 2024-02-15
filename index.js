@@ -10,7 +10,13 @@ const {userrouter}=require("./controllers/userrouter")
 const {User,Post}=require("./models")
 app.use("/user",userrouter)
 
-
+app.get("/",async(req,res)=>{
+  try {
+    res.status(200).send("welcome to cointab backend")
+  } catch (error) {
+    res.status(400).send(error)
+  }
+})
 
 
 User.hasMany(Post, { foreignKey: 'userId' });

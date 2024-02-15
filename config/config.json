@@ -13,6 +13,34 @@
       }
     }
   }
- 
+  ,
+  "test": {
+    "username": "cointab_gvg5_user",
+    "password": "iumtR9tZsvgovA4MyZq3VGkO1jE7pY5X",
+    "database": "cointab_gvg5",
+    "host": "dpg-cn6969a1hbls73c82jvg-a.singapore-postgres.render.com",
+    "dialect": "postgres",
+    "port": 5432,
+    "ssl": true,
+    "dialectOptions": {
+      "ssl": {
+        "require": true
+      }
+    }
+  },
+  "production": {
+    "username": "cointab_gvg5_user",
+    "password": "iumtR9tZsvgovA4MyZq3VGkO1jE7pY5X",
+    "database": "cointab_gvg5",
+    "host": "dpg-cn6969a1hbls73c82jvg-a.singapore-postgres.render.com",
+    "dialect": "postgres",
+    "port": 5432,
+    "ssl": true,
+    "dialectOptions": {
+      "ssl": {
+        "require": true
+      }
+    }
+  }
 }
 
